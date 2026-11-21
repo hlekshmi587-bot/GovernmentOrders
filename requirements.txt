@@ -1,0 +1,38 @@
+# ==============================================================================
+# Kerala Government Orders Search, Relationship Analysis & Verification System
+# Master Dependencies Specification (Python 3.12 Compatible)
+# ==============================================================================
+
+# Core Web Framework & Data Validation
+fastapi==0.162.5
+uvicorn==0.54.0
+pydantic==2.14.3
+pydantic-core==2.50.4
+
+# Database & Storage (PostgreSQL & Environment)
+SQLAlchemy==2.1.8
+psycopg==3.3.9
+psycopg-binary==3.3.9
+python-dotenv==1.2.4
+
+# Multi-Agent Coordination & Workflow
+langgraph==1.2.21
+langgraph-checkpoint==4.3.1
+langchain-core==1.8.0
+
+# Document Ingestion, PDF Processing & OCR
+pymupdf==2.1
+pytesseract==0.3.13
+pillow==13.0.0
+
+# Vector Embeddings & Local Semantic Search
+fastembed==0.9.1
+qdrant-client==1.20.0
+onnxruntime==1.31.1
+
+# HTTP Clients, Resilience & System Utilities
+httpx==0.28.1
+requests==2.34.2
+tenacity==9.2.1
+psutil==7.2.2
+tabulate==0.10.0
