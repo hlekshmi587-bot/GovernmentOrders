@@ -1,0 +1,27 @@
+
+# Environment variables and secrets
+.env
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Testing cache
+.pytest_cache/
+
+# Local Vector Storage (Qdrant)
+storage/qdrant/
+storage/qdrant_test/
+
+# IDE settings
+.vscode/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
