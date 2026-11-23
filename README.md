@@ -49,8 +49,6 @@ Navigating published state government notifications introduces several domain-sp
 
 ---
 
----
-
 ## 4. Dashboard Screenshots
 
 The following screenshots showcase the citizen-facing dashboard and its key functionalities, including natural-language Government Order search, AI-assisted investigation, document retrieval, and directional relationship tracing.
